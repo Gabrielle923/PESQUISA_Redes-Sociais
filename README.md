@@ -1,1 +1,0 @@
-# PESQUISA_Redes-Sociais
