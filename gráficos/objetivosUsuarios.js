@@ -10,7 +10,7 @@
 </body>
 </html>
 async function objetivosUsuarios() {
-    const url = 'https://raw.githubusercontent.com/gabrielle923/api/main/razoes-globais.json'
+    const url = 'https://raw.githubusercontent.com/Gabrielle923/api/main/razoes-globais.json'
     const res = await fetch(url)
     const dados = await res.json()
     const objetivosUsuarios = Object.keys(dados)
