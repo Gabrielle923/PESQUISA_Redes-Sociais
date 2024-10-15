@@ -2,7 +2,7 @@
 <body>
 <! -- código omitido --> 
     <footer>
-        <p>Desenvolvido por Gui Lima</p>
+        <p>Desenvolvido por Gabrielle Cristino Bento de Souza</p>
     </footer>
     <script type="module" src="graficos/informacoesGlobais.js"></script>
     <script type="module" src="graficos/quantidadeUsuarios.js"></script>
