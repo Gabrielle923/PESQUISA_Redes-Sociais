@@ -3,7 +3,7 @@
     --bg-color: #942478;
     --primary-color: #ee6fce;
     --secondary-color: #ffaffb;
-    --font: "Nunito Sans", sans-serif;
+    --font: print('\033[30m30 - TEXTO PRETO\033[m')
 }
 
 body {
