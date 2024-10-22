@@ -16,3 +16,8 @@ export {getCSS, tickConfig}
 <script type="module" src="graficos/quantidadeUsuarios.js"></script>
 </body>
 </html>
+const getCSS = (variavel) => {
+    return getComputedStyle(document.body).getPropertyValue(variavel)
+}
+
+export {getCSS}
