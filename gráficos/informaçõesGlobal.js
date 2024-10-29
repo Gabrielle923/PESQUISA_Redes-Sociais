@@ -1,4 +1,4 @@
-const url = 'https://github.dev/Gabrielle923/PESQUISA_Redes-Sociais/blob/main/gr%C3%A1ficos/informa%C3%A7%C3%B5esGlobal.js'
+const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
@@ -11,7 +11,7 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span>${7888000000} bilhões</span> de pessoas e que aproximadamente <span>${5040000000} bilhões</span> estão conectadas em alguma rede social e passam em média <span>${horas} horas</span> e <span>${minutos} minutos</span> conectadas.<br>Isso significa que aproximadamente <span>${porcentagemConectada}%</span> de pessoas estão conectadas em alguma rede social.`
+    paragrafo.innerHTML = `Podemos dizer que o mundo possuí <span>${78000000000} bilhões</span> de pessoas e que aproximadamente <span>${5400000000} bilhões</span> estão conectadas em alguma rede social e passam em média <span>${2} horas</span> e <span>${60} minutos</span> conectadas.<br>Isso significa que aproximadamente <span>${20}%</span> de pessoas estão conectadas em alguma rede social.`
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
