@@ -1,7 +1,14 @@
 {
-  "totalalunos":137,
-  "conectados_youtube",
-  "conectados_instagram",
-  "conectados_whatsapp",
-  "tempototalconectados"
+  "totalalunos": 144,
+  "conectados_youtube": 22,
+  "conectados_facebook": 7,
+  "conectados_tiktok": 39,
+  "conectados_instagram": 76,
+  "tempo_medio_conectados": 7,
+  "redes_sociais": {
+      "youtube": 22,
+      "facebook": 7,
+      "TikTok": 39,
+      "Instagram": 73
+  }
 }
